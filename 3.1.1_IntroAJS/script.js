@@ -51,3 +51,20 @@ let nombreMascota = prompt("Escribe el nombre de tu mascota"); //Ventana emergen
 // prompt SIEMPRE convierte el valor en una cadena de texto
 alert("El nombre de la mascota es: " + nombreMascota);
 
+// Tarea: Leer los datos de una mascota e imprimir un mensaje que incluya todos los datos leídos
+// utilizar al menos 1 vez cada tipo de dato (string, number, boolean)
+//Ejercicio1 - Mascotas:
+let inicio = prompt("¿Tienes una mascota?");
+let nombreMascota = prompt("Escribe el nombre de tu mascota");
+let tipoMascota = prompt("Escribe el tipo de mascota");
+let razaMascota = prompt("Escribe la raza de tu mascota");
+const edadMascota = prompt("Escribe la edad de tu mascota");
+alert("Tienes una mascota llamada " + nombreMascota + " es un " + tipoMascota + " de raza " + razaMascota + " y tiene " + edadMascota + " años.");
+
+//Ejercicio 2:
+// Crear un cuestionario de 10 preguntas, mostrar cada pregunta una por una y al final mostrar la respectiva pregunta con la respuesta ingresada por el usuario.
+Que al menos dos preguntas sean de opción multiple.
+Que al menos dos preguntas sean valores numericos.
+Cada pregunta debe tener la respuesta en los comentarios del código
+Agregar cada respuesta correcta a una variable   
+
